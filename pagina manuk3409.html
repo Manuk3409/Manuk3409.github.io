@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuk3409 - Página Oficial</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        body {
+            font-family: 'Press Start 2P', cursive;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #000000, #3d0000);
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            background: radial-gradient(circle, #700000, #000000);
+        }
+        .hero h1 {
+            font-size: 3em;
+            color: #ff0000;
+            text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000;
+            animation: glow 2s infinite alternate;
+        }
+        @keyframes glow {
+            0% { text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000; }
+            100% { text-shadow: 0 0 20px #ff3333, 0 0 30px #ff3333; }
+        }
+        .hero img {
+            width: 200px;
+            margin-bottom: 20px;
+            filter: drop-shadow(0px 0px 15px #ff0000);
+        }
+        .links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .links a {
+            color: #ffffff;
+            background: #700000;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1em;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .links a:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px #ff0000;
+        }
+        .about {
+            padding: 50px 20px;
+            text-align: center;
+            background: #1a0000;
+        }
+        .about h2 {
+            font-size: 2em;
+            color: #ff0000;
+            margin-bottom: 20px;
+        }
+        .about p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            color: #e0e0e0;
+        }
+        .divider {
+            height: 5px;
+            background: #ff0000;
+            margin: 30px 0;
+        }
+        .contact {
+            padding: 50px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #3d0000, #000000);
+        }
+        .contact h2 {
+            font-size: 2em;
+            color: #ff0000;
+            margin-bottom: 20px;
+        }
+        .contact p {
+            font-size: 1.2em;
+            color: #e0e0e0;
+            margin-bottom: 20px;
+        }
+        .contact-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .contact-links a {
+            color: #ffffff;
+            background: #700000;
+            padding: 15px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1em;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .contact-links a:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px #ff0000;
+        }
+        .contact img {
+            width: 100px;
+            margin: 20px auto;
+            filter: drop-shadow(0px 0px 15px #ff0000);
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <img src="/mnt/data/logo manuk3409.png" alt="Logo de Manuk3409">
+        <h1>Manuk3409</h1>
+        <div class="links">
+            <a href="https://www.youtube.com/@Manuk3409" target="_blank">YouTube</a>
+            <a href="https://discord.gg/tuservidordiscord" target="_blank">Discord</a>
+            <a href="https://github.com/Manuk3409" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="about">
+        <h2>Sobre Mí</h2>
+        <p>🎬 Animador indie en LibreFrame Studios</p>
+        <p>🎤 Rapero iniciando como ManuAK</p>
+        <p>📺 Creador de contenido sobre gaming, narración y mitos de internet</p>
+        <p>🎨 Apasionado por el pixel art y la animación a trazo limpio</p>
+        <p>📢 Experto en YouTube y estrategias de crecimiento en la plataforma</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="contact">
+        <h2>Contáctame</h2>
+        <p>¿Quieres ponerte en contacto conmigo? Encuéntrame en estas plataformas:</p>
+        <div class="contact-links">
+            <a href="#" target="_blank">Instagram</a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank">Correo Electrónico</a>
+        </div>
+        <img src="/mnt/data/logo manuk3409.png" alt="Logo de Manuk3409">
+    </div>
+</body>
+</html>
